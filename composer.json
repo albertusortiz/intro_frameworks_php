@@ -1,0 +1,19 @@
+{
+    "name": "albertusortiz/frameworks_php",
+    "description": "Proyecto basico",
+    "authors": [
+        {
+            "name": "Alberto Ortiz",
+            "email": "alberto.ortiz.vargas@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
