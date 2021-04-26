@@ -10,13 +10,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container">
-            <a href="/" class="navbar-brand h1">Home</a>
-        </div>
-        <div class="container">
-            <a href="service" class="navbar-brand h1">Servicios</a>
-        </div>
-        <div class="container">
-            <a href="contact" class="navbar-brand h1">Contacto</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <div class="container">
