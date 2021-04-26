@@ -49,6 +49,12 @@ class Request
         $controller = $this->getController();
         $method = $this->getMethod();
 
+        if (class_exists($controller)) {
+            $controller = new $controller;
+        }else{
+            $controller = "App\Http\Controllers\NotFoundController";
+        }
+
         $response = call_user_func([
             new $controller,
             $method
